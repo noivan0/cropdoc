@@ -3,6 +3,7 @@
 **Team:** noivan  
 **Track:** Global Resilience + Cactus Prize + Special Technology Track  
 **Demo:** https://huggingface.co/spaces/noivan/cropdoc  
+**Video:** https://youtu.be/VV3YqZmUkGk  
 **Code:** https://github.com/noivan0/cropdoc  
 **Models:** https://huggingface.co/noivan/cropdoc  
 
