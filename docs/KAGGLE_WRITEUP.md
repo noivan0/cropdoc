@@ -252,5 +252,5 @@ CropDoc's architecture is explicitly designed for local-first deployment. The E4
 
 ---
 
-_Demo: [HF_SPACES_URL_HERE] | Code: [GITHUB_URL_HERE]_
-_Last updated: 2026-04-06 — Gemma4 LoRA v2 파인튜닝 완료_
+_Demo: https://huggingface.co/spaces/noivan/cropdoc | Code: https://github.com/noivan0/cropdoc | Models: https://huggingface.co/noivan/cropdoc_
+_Last updated: 2026-04-06 — Gemma4 LoRA v2 파인튜닝 완료 · HF Spaces 배포 완료_
