@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>CropDoc - Plant Disease AI</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#060e08;color:#e0ffe0;font-family:sans-serif;min-height:100vh}
+.hero{background:linear-gradient(135deg,#061206,#04301a);padding:60px 32px;text-align:center;border-bottom:2px solid #00dc78}
+h1{font-size:64px;font-weight:900;color:#50ffa0;margin-bottom:12px}
+.tag{font-size:20px;color:#96b4a0;margin-bottom:24px}
+.badges{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:16px}
+.b{border-radius:18px;padding:7px 18px;font-size:13px;font-weight:700}
+.g{background:rgba(0,220,120,.12);border:1px solid #00dc78;color:#50ffa0}
+.t{background:rgba(0,190,170,.12);border:1px solid #00beba;color:#00beba}
+.p{background:rgba(170,100,255,.12);border:1px solid #aa64ff;color:#aa64ff}
+.o{background:rgba(255,150,40,.12);border:1px solid #ff9628;color:#ff9628}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;max-width:860px;margin:36px auto;padding:0 20px}
+.stat{background:rgba(0,220,120,.07);border:1px solid rgba(0,220,120,.25);border-radius:14px;padding:22px;text-align:center}
+.val{font-size:36px;font-weight:900}.lbl{font-size:12px;color:#96b4a0;margin-top:4px}
+section{max-width:960px;margin:0 auto;padding:36px 20px}
+h2{font-size:24px;color:#50ffa0;margin-bottom:18px;border-bottom:1px solid rgba(0,220,120,.25);padding-bottom:8px}
+.vw{text-align:center;margin:16px 0}
+.vw iframe{border-radius:12px;border:2px solid rgba(0,220,120,.35);max-width:100%}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+a.card{background:rgba(0,30,15,.8);border:1px solid rgba(0,220,120,.25);border-radius:12px;padding:18px;text-decoration:none;color:inherit;display:block}
+a.card:hover{border-color:#50ffa0}
+.ct{font-size:15px;font-weight:700;color:#50ffa0;margin-bottom:4px}
+.cu{font-size:11px;color:#96b4a0}
+.box{background:rgba(0,30,15,.6);border:1px solid rgba(0,220,120,.18);border-radius:12px;padding:20px;margin:16px 0}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:10px;text-align:left}
+th{color:#50ffa0;border-bottom:1px solid rgba(0,220,120,.25)}
+tr:not(:last-child)td{border-bottom:1px solid rgba(0,220,120,.08)}
+.best{background:rgba(0,220,120,.08);font-weight:700}
+footer{text-align:center;padding:28px;color:#96b4a0;font-size:12px;border-top:1px solid rgba(0,220,120,.18);margin-top:36px}
+@media(max-width:600px){.stats{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}h1{font-size:44px}}
+</style>
+</head>
+<body>
+<div class="hero">
+<h1>CropDoc</h1>
+<div class="tag">Plant Disease AI — Offline · Multimodal · 10 Languages</div>
+<div class="badges">
+<span class="b g">99.3% Accuracy</span>
+<span class="b g">72 Disease Classes</span>
+<span class="b t">10 Languages</span>
+<span class="b o">Offline-First</span>
+<span class="b p">Gemma 4 E4B-IT</span>
+</div>
+<div style="font-size:12px;color:#96b4a0">Google DeepMind Gemma 4 Good Hackathon 2026 · Global Resilience + Cactus Prize</div>
+</div>
+<div class="stats">
+<div class="stat"><div class="val" style="color:#50ffa0">500M</div><div class="lbl">Smallholder Farmers</div></div>
+<div class="stat"><div class="val" style="color:#ffd23c">72</div><div class="lbl">Disease Classes</div></div>
+<div class="stat"><div class="val" style="color:#00beba">10</div><div class="lbl">Languages</div></div>
+<div class="stat"><div class="val" style="color:#ff9628">$220B</div><div class="lbl">Losses Prevented</div></div>
+</div>
+<section>
+<h2>Demo Video</h2>
+<div class="vw">
+<iframe width="820" height="461" src="https://www.youtube.com/embed/VV3YqZmUkGk" title="CropDoc Demo" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>
+</div>
+</section>
+<section>
+<h2>Performance</h2>
+<div class="box">
+<table>
+<tr><th>Model</th><th>Accuracy</th><th>Offline</th><th>Languages</th></tr>
+<tr><td>Gemma 4 alone (zero-shot)</td><td>16.7%</td><td>Yes</td><td>Any</td></tr>
+<tr><td>CNN Ensemble alone</td><td>94.0%</td><td>Yes</td><td>None</td></tr>
+<tr class="best"><td>CropDoc v26 (Hybrid)</td><td style="color:#ffd23c">99.3%</td><td style="color:#50ffa0">Yes</td><td style="color:#50ffa0">10</td></tr>
+</table>
+</div>
+</section>
+<section>
+<h2>Links</h2>
+<div class="cards">
+<a class="card" href="https://github.com/noivan0/cropdoc" target="_blank"><div class="ct">GitHub Source Code</div><div class="cu">github.com/noivan0/cropdoc</div></a>
+<a class="card" href="https://huggingface.co/noivan/cropdoc" target="_blank"><div class="ct">Model Weights (HF Hub)</div><div class="cu">huggingface.co/noivan/cropdoc</div></a>
+<a class="card" href="https://youtu.be/VV3YqZmUkGk" target="_blank"><div class="ct">Demo Video (YouTube)</div><div class="cu">youtu.be/VV3YqZmUkGk</div></a>
+</div>
+</section>
+<footer>CropDoc · Gemma 4 E4B-IT · CC-BY 4.0 · Gemma 4 Good Hackathon 2026</footer>
+</body>
+</html>
