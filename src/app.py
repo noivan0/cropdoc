@@ -455,7 +455,7 @@ CropDoc은 **Gemma 4 E4B** — Google의 가장 효율적인 멀티모달 모델
 Apache 2.0 — 누구나, 어디서나 무료로 사용 가능.
 
 ---
-*Gemma 4 Good 해커톤 2025용으로 제작. Team: CropDoc*
+*Gemma 4 Good 해커톤 2026용으로 제작. Team: CropDoc*
                 """)
 
     return demo
