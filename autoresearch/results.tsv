@@ -1,0 +1,32 @@
+commit	accuracy	status	description
+c031d4d	0.600	baseline	Baseline: Gemma4 E4B-IT multimodal, greedy decoding, explicit disease list in system prompt (5-image smoke test)
+CoT_v1	0.200	discard	Idea8+1: CoT+visual clues, Early Blight vs Septoria confused — worse than baseline
+2pass_v1	0.500	discard	Idea3: 2-pass healthy/disease then specific disease, still Septoria confusion
+preprocess_v1	0.500	discard	Idea2+1: contrast+sharpness enhancement + fine-grained prompts, worse than baseline
+septoria_reduction	0.400	discard	Idea1: Explicit Septoria conditions guide, still over-predicting Septoria
+8077e0e	0.733	keep	Idea9+1: Septoria verify retry on 30img — baseline 0.600 → 0.733
+dual_verify	0.700	discard	Idea9: Septoria+Healthy dual verify — Healthy verify caused Late Blight confusion
+f738639	0.600	keep	Idea9: Septoria+LeafMold dual verify, v2 harness, 0.433→0.600
+v12_hybrid	0.930	keep	Hybrid CNN(MobileNetV2 PlantVillage)+Gemma4: 0.167→0.930 (+76%p), all 10 classes ≥83%
+a82c6c4	0.967	keep	v12: CNN+Gemma4 hybrid, MobileNetV2 high-conf bypass, 30img
+3030361	0.937	keep	v13: GrabCut leaf-seg (SEG_MIN_SIZE=300) + 38-class CNN expansion (ORIGINAL_LABELS fallback보호) — 300img, 모든 10종 ≥87%
+ada5ed8	0.823	discard	v18a: CONFUSABLE확장(Pepper BS/Healthy Tomato/Healthy Potato)+per-class threshold(0.999)+plant-hint — too many Gemma4 calls, Gemma4 틀림 ↑
+48675aa	0.917	discard	v18b: CNN_HIGH_CONF 0.90→0.95+plant-hint — 0.90~0.95구간에서 CNN이 Gemma4보다 정확, 역효과
+18f2920	0.920	discard	v18c: v13+Gemma4 프롬프트 식물종 힌트만 추가 — Tomato Septoria -2, 전체 개선 없음. v13(0.937)이 현실적 최적
+a3affa7	0.9567	keep	v14 TTA (4 transforms: center/hflip/zoom/resize avg): +0.020 over v13(0.937)
+6f589a4	0.9700	keep	v15 TTA+Ensemble(orig 0.6+v2 0.4): +0.013 over v14(0.957), +0.033 over v13(0.937)
+4548c86	0.9800	keep	v16 ensemble 50/50 (equal weight): +0.010 over v15(0.970). Septoria+BS 100%
+7b239d2	0.9800	discard	v17 ensemble v2=0.6 dominant: same 0.980, Potato LB 27→26, Early Blight 29→30. no net gain
+f892454	0.9800	discard	v18 pure VLM mode (CNN<0.35): same 0.980, no net gain vs v16
+14092ca	0.9800	discard	v19 CNN_HIGH_CONF 0.90→0.83: same 0.980, threshold change no impact on score
+39d78bb	0.9800	discard	v20 expanded TTA 4→6: same 0.980, PotatoEB +1 PotatoLB -1 net zero
+8b0ffdb	0.9800	discard	v21 image enhancement for Gemma4 path (conf<0.50): same 0.980, no gain
+508ef52	0.9767	discard	v22 top1-only hint (conf 0.70~0.90): 0.977 < v16(0.980), Tomato LB worse
+b089fce	0.9700	discard	v23 Late Blight disambiguation prompt: 0.970 < v16(0.980), over-specification hurts
+f7cdd2e	0.9700	discard	v17: Gemma4 parsing fix + Late Blight prompt + per-class threshold — 0.970 < v16(0.980), 파싱 개선이 기존 정상 케이스 망가뜨림
+12d62e2	0.9867	keep	v24: EfficientNetV2-S(val_acc=99.91%)+MobileNetV2-v2 앙상블(50/50)+TTA4 — +0.7%p over v16(0.980). 8/10종 100%, Potato/Tomato LB 93.3%
+d03abcd	0.9867	discard	v25: LOWCONF prompt (top1<0.50) for iNat images — same 0.9867, inat_99652641 Tomato Early Blight (Late Blight 힌트에도 Early Blight로 분류, 세그 영향)
+6f41c8b	0.9933	keep	v26: FOCUSED Late Blight prompt (top1<0.50) + plant-hint path correction — +0.66%p (296→298). Potato/Tomato LB 각 29/30. inat_99652641 ✅, inat_250907864 ❌(열매 사진)
+fe6fd00	0.9933	keep	v27: 38종→54종 확장(+16종: Coffee/Wheat/Rice/Mango/Cassava/Banana/Citrus) + TTA버그수정(Resize(224)→CenterCrop) — 정확도 0.9933 유지(298/300)
+fe6fd00	0.9867	discard	v27 refactor: TTA 4번째 변환 변경(Resize→VFlip) + 배치stack 오류로 비정방형 이미지 OOM → 정확도 저하
+09f7423	0.9933	keep	v27fix: 배치TTA fallback + TTA 원복 → 0.9933 복구. 리팩토링(OOM/다국어/graceful) 모두 유지, 54종 지원

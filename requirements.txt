@@ -1,0 +1,34 @@
+# ============================================================
+# CropDoc — Requirements
+# ============================================================
+# 두 가지 백엔드를 지원합니다:
+#
+#   [PRIMARY]  HuggingFace Transformers (Kaggle GPU 환경)
+#              GPU 필요. google/gemma-4-E4B-it 로컬 추론.
+#
+#   [FALLBACK] Google AI Studio API (API 키 환경)
+#              GPU 불필요. gemini-2.0-flash 원격 API.
+#
+# Kaggle 노트북: GPU accelerator 활성화 후 PRIMARY 백엔드 사용
+# HuggingFace Spaces: API 키를 Secret으로 설정 후 FALLBACK 사용
+# ============================================================
+
+# ── HuggingFace Transformers 백엔드 (PRIMARY — Kaggle GPU 환경) ───────────
+transformers>=4.50.0
+torch>=2.0.0
+accelerate>=0.26.0
+kagglehub>=0.3.0        # Kaggle 모델 네이티브 다운로드 (google/gemma-4/transformers/gemma-4-e4b-it)
+
+# ── Google AI Studio API 백엔드 (FALLBACK — API 키 환경) ─────────────────
+# ⚠️ google-generativeai는 EOL(2025-11-30). google-genai로 교체됨.
+google-genai>=1.0.0
+
+# ── 공통 의존성 ───────────────────────────────────────────────────────────
+gradio>=4.0.0
+Pillow>=10.0.0
+requests>=2.31.0
+numpy>=1.24.0
+pandas>=2.0.0
+datasets>=2.14.0
+soundfile>=0.12.0
+librosa>=0.10.0

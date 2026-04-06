@@ -1,0 +1,437 @@
+{
+  "adapter": "/root/.openclaw/workspace/companies/Hackathon/projects/gemma4good/data/models/gemma4_finetuned_v2",
+  "finetuned_accuracy": 0.7674418604651163,
+  "total_cases": 43,
+  "results": [
+    {
+      "disease": "Tomato Late Blight",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 3,
+      "total_kw": 3,
+      "pass": true,
+      "elapsed": 20.8263578414917,
+      "response_preview": "**Diagnosis:** Late blight of tomato (*Solanum lycosanum*)\n**Cause:** Water mold (*Pseudomonas syringae*) that thrives in warm, wet conditions. Spore release during blight causes secondary infections."
+    },
+    {
+      "disease": "Tomato Early Blight",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 3,
+      "total_kw": 3,
+      "pass": true,
+      "elapsed": 21.345182180404663,
+      "response_preview": "**Diagnosis:** Early Blight (also known as Rust on Tomato)\n**Causative Agent:** Fungus (e.g., *Fulvia folvia* or *Puccinia species*) depending on host, thrives in wet conditions.\n**Symptoms:** Small, "
+    },
+    {
+      "disease": "Tomato Bacterial Spot",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 3,
+      "total_kw": 3,
+      "pass": true,
+      "elapsed": 26.755135536193848,
+      "response_preview": "**Diagnosis:** Tomato Bacterial Spot (Bacterial Leaf Spot)\n**Causative Agent:** *Bse* (Tomato Bacterial Spot Epidemic Bumper Strain), *Bse* (Tomato Leaf Spot Bacterium)\n**Symptoms:** Small, circular l"
+    },
+    {
+      "disease": "Tomato Leaf Mold",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 20.3203387260437,
+      "response_preview": "**Diagnosis:** Tomato Leaf Mold (caused by *Sphagmospores* spores)\n**Symptoms:** Fine, web-like mold growth on the upper leaves, especially affected by low soil moisture and high humidity. Can cause l"
+    },
+    {
+      "disease": "Tomato Septoria Leaf Spot",
+      "lang": "en",
+      "score": 0.5,
+      "hits": 1,
+      "total_kw": 2,
+      "pass": false,
+      "elapsed": 16.85079789161682,
+      "response_preview": "**Diagnosis:** Septoria Leaf Spot (caused by *Septoria capsanthinensis*)\n**Symptoms:** Small, circular brown spots with black borders on leaves; leaf discoloration; premature leaf death.\n**Cause:** Fu"
+    },
+    {
+      "disease": "Healthy Tomato",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 14.005173921585083,
+      "response_preview": "**Diagnosis:** Healthy Tomato\n**Description:** Leaves are a vibrant green, no spots or discoloration, stems are strong and upright. Fruit (if present) is firm and correctly colored.\n**Urgency:** Low -"
+    },
+    {
+      "disease": "Potato Late Blight",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 3,
+      "total_kw": 3,
+      "pass": true,
+      "elapsed": 26.044589519500732,
+      "response_preview": "**Diagnosis:** Late blight of potato (*Solanum tuberosum*)\n**Causative Agent:** Water mold (*Pseudomonas syringae*) followed by fungal infection (*Phytophthora infestans*)\n**Symptoms:** Water-soaked l"
+    },
+    {
+      "disease": "Potato Early Blight",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 3,
+      "total_kw": 3,
+      "pass": true,
+      "elapsed": 23.817294120788574,
+      "response_preview": "**Diagnosis:** Early Blight (also known as Potato Rust)\n**Causative Agent:** Fungus (e.g., *Fusarium solanaci*, *Puccinia subspatatii*)\n**Symptoms:** Small, circular brown/purplish spots on upper leav"
+    },
+    {
+      "disease": "Healthy Potato",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 17.45368456840515,
+      "response_preview": "**Diagnosis:** Healthy Potato (Solanum tuberosum)\n**Appearance:** Smooth, oval to slightly irregular periderm (skin), light tan to white color, no bumps or lesions on the skin. Tuber is firm and odori"
+    },
+    {
+      "disease": "Pepper Bacterial Spot",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 3,
+      "total_kw": 3,
+      "pass": true,
+      "elapsed": 21.247614860534668,
+      "response_preview": "**Diagnosis:** Bacterial Pepper Spot (or Bacterial Leaf Spot)\n**Cause:** Buruli Streptococci bacteria transmitted by aphids\n**Symptoms:** Small, circular leaf spots with dark borders and affected tiss"
+    },
+    {
+      "disease": "Healthy Pepper",
+      "lang": "en",
+      "score": 0.0,
+      "hits": 0,
+      "total_kw": 2,
+      "pass": false,
+      "elapsed": 29.25918197631836,
+      "response_preview": "**Diagnosis:** Aphid infestation (Primary Pest)\n**Affected Area:** All parts of the plant, especially new growth and tender areas.\n**Symptoms:** Tiny, fuzzy or waxy insects clustered together. Sticky "
+    },
+    {
+      "disease": "Apple Scab",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 22.071176052093506,
+      "response_preview": "**Diagnosis:** Apple Scab\n**Cercodes:** Cercodes cylindricus, Cercodes cylindricus var. vulgaris\n**Symptoms:** Cylindrical (matching apple scab) or irregular brown/black scabs on leaves; rough texture"
+    },
+    {
+      "disease": "Apple Black Rot",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 3,
+      "total_kw": 3,
+      "pass": true,
+      "elapsed": 31.278072834014893,
+      "response_preview": "**Diagnosis:** Black Rot (also known as Apple Core Rot or Black Heart)\n**Causative Agents:** Fungi - *Botryosphaeria psilimensis* and *Botryosphaeria chrysensis*\n**Affected Parts:** Inside of apple co"
+    },
+    {
+      "disease": "Apple Cedar Rust",
+      "lang": "en",
+      "score": 0.5,
+      "hits": 1,
+      "total_kw": 2,
+      "pass": false,
+      "elapsed": 22.734968423843384,
+      "response_preview": "**Diagnosis:** Cedar Rust (or Juniper Rust)\n**Causative Agent:** *Pseudomonas syringae* pv. *pspores* (a type of bacterial rust)\n**Symptoms on Leaves:** Bright rusty-orange to brown pustules, especial"
+    },
+    {
+      "disease": "Healthy Apple",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 11.188242197036743,
+      "response_preview": "**Diagnosis:** Healthy Apple\n**Description:** Apples are generally vibrant, with no visible signs of disease (scabs, mold, etc.). Fruits are firm and have no blemishes.\n**Treatment:** Ongoing preventa"
+    },
+    {
+      "disease": "Corn Gray Leaf Spot",
+      "lang": "en",
+      "score": 0.6666666666666666,
+      "hits": 2,
+      "total_kw": 3,
+      "pass": false,
+      "elapsed": 18.59025764465332,
+      "response_preview": "**Diagnosis:** Gray Leaf Spot (caused by *Trichoderma* species)\n**Affected Area:** Upper leaves, circular spots with dark borders and lighter centers\n**Symptoms:** Small circular lesions on leaves, co"
+    },
+    {
+      "disease": "Corn Common Rust",
+      "lang": "en",
+      "score": 0.5,
+      "hits": 1,
+      "total_kw": 2,
+      "pass": false,
+      "elapsed": 19.98264765739441,
+      "response_preview": "**Diagnosis:** Common Rust (Rust fungus - *Puccinia sorghi*)\n**Affected Area:** Leaves (raised rusty-orange/brown pustules)\n**Cause:** Fungus spread by wind currents; thrives in warm, moist conditions"
+    },
+    {
+      "disease": "Corn Northern Blight",
+      "lang": "en",
+      "score": 0.5,
+      "hits": 1,
+      "total_kw": 2,
+      "pass": false,
+      "elapsed": 29.754522562026978,
+      "response_preview": "**Diagnosis:** Northern Corn Leaf Blade Rust (Pyracanidia cristata)\n**Affected Areas:** Upper surfaces of corn leaves show rusty-brown, irregular patches. Affected areas may merge into large rusty pat"
+    },
+    {
+      "disease": "Healthy Corn",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 12.936629295349121,
+      "response_preview": "**Diagnosis:** Healthy Corn\n**Description:** Plants are tall, straight, and vibrant green. No signs of pests or disease. Excellent potential yield.\n**Treatment:** Monitor regularly. Ensure adequate wa"
+    },
+    {
+      "disease": "Grape Black Rot",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 3,
+      "total_kw": 3,
+      "pass": true,
+      "elapsed": 19.954329252243042,
+      "response_preview": "**Diagnosis:** Black Rot of Grapes (Caused by *Botrytis cinerea*)\n**Symptoms:** Black, rotting clusters on vines; \"Buskiness\" (dense foliage); black mold (*Botrytis*) on berries; bitter taste.\n**Cause"
+    },
+    {
+      "disease": "Grape Esca",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 20.187361478805542,
+      "response_preview": "**Diagnosis:** Grape Esca (Esca pecusa)\n**Type:** Vascular disease affecting Grapes\n**Cause:** Bacteria (Esca pecusa), transmitted by Grape Esca flies\n**Symptoms:** Malus-like clusters of small, bitte"
+    },
+    {
+      "disease": "Grape Leaf Spot",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 25.321353673934937,
+      "response_preview": "**Diagnosis:** Grape Leaf Spot (also known as Leaf Scorch or Leaf Pustules)\n**Causative Agents:** Primarily fungal (e.g., *Podosphaera* species), secondary bacterial infections.\n**Symptoms:** Small, r"
+    },
+    {
+      "disease": "Healthy Grape",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 14.813461780548096,
+      "response_preview": "**Diagnosis:** Healthy Grapevine (Vitis vinifera)\n**Symptoms:** Deep green color, no signs of distortion or disease, vigorous growth, no associated pests.\n**Cause:** Optimal growing conditions (water,"
+    },
+    {
+      "disease": "Peach Bacterial Spot",
+      "lang": "en",
+      "score": 0.6666666666666666,
+      "hits": 2,
+      "total_kw": 3,
+      "pass": false,
+      "elapsed": 20.88233971595764,
+      "response_preview": "**Diagnosis:** Bacterial Spot (or Bacterial Leaf Spot)\n**Cause:** Prominent leaf spots caused by bacteria (e.g., *Sphacobus soliferus*). Favored by high humidity and temperature.\n**Symptoms:** Circula"
+    },
+    {
+      "disease": "Healthy Peach",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 9.979312419891357,
+      "response_preview": "**Diagnosis:** Healthy Peach (No signs of disease)\n**Symptoms:** Vibrant color, no lesions, no pests present.\n**Treatment:** Maintain proper pruning for air circulation. Monitor regularly for early si"
+    },
+    {
+      "disease": "Strawberry Leaf Scorch",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 22.13508892059326,
+      "response_preview": "**Diagnosis:** Strawberry Leaf Scorch (or Leaf Burn)\n**Cause:** Primarily related to improper watering practices (over-watering followed by wind exposure), nutrient deficiencies (especially Potassium)"
+    },
+    {
+      "disease": "Healthy Strawberry",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 10.954970359802246,
+      "response_preview": "**Diagnosis:** Healthy Strawberry\n**Description:** Bright green foliage, no spots or discoloration, abundant small red/pink flowers, producing ripe fruit.\n**Treatment:** Maintain consistent watering a"
+    },
+    {
+      "disease": "Cherry Powdery Mildew",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 3,
+      "total_kw": 3,
+      "pass": true,
+      "elapsed": 25.0488862991333,
+      "response_preview": "**Diagnosis:** Powdery Mildew (caused by various fungi, most commonly *Spongoides powdery mildew*)\n**Affected Plants:** Cherry (Sweet & Sour), Apple, Squash, Cucumber, Roses\n**Symptoms:** White, powde"
+    },
+    {
+      "disease": "Healthy Cherry",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 14.910948276519775,
+      "response_preview": "**Diagnosis:** Healthy Cherry (Prunus seroides)\n**Symptoms:** Bright green foliage, no signs of pests or diseases, fruit development is normal.\n**Cause:** No disease present; tree is well-adapted to l"
+    },
+    {
+      "disease": "Squash Powdery Mildew",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 3,
+      "total_kw": 3,
+      "pass": true,
+      "elapsed": 24.11306095123291,
+      "response_preview": "**Diagnosis:** Powdery Mildew (caused by various fungi, most commonly *Spongosides delicatus*)\n**Affected Plants:** Squash, Pumpkin, Squash, Cucumbers, Squash, Squash\n**Symptoms:** Fine white powdery "
+    },
+    {
+      "disease": "Healthy Blueberry",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 20.091878175735474,
+      "response_preview": "**Diagnosis:** Healthy Blueberry (Vaccinium corymboides)\n**Symptoms:** Deep, consistent blue coloration on leaves; no signs of powdery mildew or rust; good leaf structure; surrounding plants are also "
+    },
+    {
+      "disease": "Healthy Raspberry",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 10.576394319534302,
+      "response_preview": "**Diagnosis:** Healthy Raspberry\n**Description:** Leaves are vibrant green, no spots, aphids or signs of disease. Plants are vigorous and well-maintained.\n**Treatment:** None needed. Continue regular "
+    },
+    {
+      "disease": "Healthy Soybean",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 12.81230115890503,
+      "response_preview": "**Diagnosis:** Healthy Soybean\n**Symptoms:** Uniform growth, no lesions or spots on leaves, good pod development.\n**Cause:** Adequate soil fertility (N, P, K), absence of pests and diseases.\n**Treatme"
+    },
+    {
+      "disease": "Orange Citrus Greening",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 3,
+      "total_kw": 3,
+      "pass": true,
+      "elapsed": 18.023688077926636,
+      "response_preview": "**Diagnosis:** Infectious Greening (IDY) / Citrus Greening (HLB)\n**Cause:** Rhizobium bacteria that infects roots, causing them to die prematurely. Spread by infected humans/machinery.\n**Symptoms:** I"
+    },
+    {
+      "disease": "Tomato Spider Mites",
+      "lang": "en",
+      "score": 0.6666666666666666,
+      "hits": 2,
+      "total_kw": 3,
+      "pass": false,
+      "elapsed": 22.874139070510864,
+      "response_preview": "**Diagnosis:** Spider Mites (primarily Spider Mites)\n**Affected Parts:** Leaves (undersides), Stems, Fruits\n**Symptoms:** Fine webbing on affected areas; stippling (tiny dots) on leaf surface; yellowi"
+    },
+    {
+      "disease": "Tomato Target Spot",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 3,
+      "total_kw": 3,
+      "pass": true,
+      "elapsed": 19.414032459259033,
+      "response_preview": "**Diagnosis:** Target Spot on Tomato Leaves (Target Leaf Spot)\n**Appearance:** Circular lesions with dark borders and lighter centers, resembling a bull's eye or target. Lesions may coalesce on leaves"
+    },
+    {
+      "disease": "Tomato Yellow Leaf Curl",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 3,
+      "total_kw": 3,
+      "pass": true,
+      "elapsed": 20.640931844711304,
+      "response_preview": "**Diagnosis:** Tomato Yellow Leaf Curl Virus (TYLCV) causing Yellow Leaf Curl (TYLC)\n**Cause:** TYLCV transmitted by aphids (especially pea and corn aphids). Favored by high humidity (>80%).\n**Symptom"
+    },
+    {
+      "disease": "Tomato Mosaic Virus",
+      "lang": "en",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 15.762129783630371,
+      "response_preview": "**Diagnosis:** Tomato Mosaic Virus (TMV)\n**Cause:** Transmission via human hands, contaminated water, or infected seeds. Causes erratic leaf patterns, stunted growth, and fruit quality issues.\n**Treat"
+    },
+    {
+      "disease": "Tomato Late Blight",
+      "lang": "ko",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 26.913881301879883,
+      "response_preview": "🍅 토마토 후추잎마름병 (Late Blight) 🚨 **긴급 진단!**\n\n**🔬 원인:** 역병균 (Verticillium dahliae), 고온다습에 급발생\n**🔬 증상:** 아래쪽 줄기가 갈변, 물갈퀴 모양 갈변 반점, 심하면 쓰러짐\n**🔬 치료:** 살균제 (만코배통, 코치브롬), 환기 개선, 감염된 열매 제거\n**🔬 예방:** 적정 시비, 병든 식물"
+    },
+    {
+      "disease": "Potato Late Blight",
+      "lang": "ko",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 32.650404930114746,
+      "response_preview": "🥔 감자 후추잎마름병 (Late Blight) 🚨 **긴급 진단!** 잎이 검게 변하고 줄기가 쓰러지는 치명병!\n\n🔬 **원인:** 역병균 (Phytophthora infestans) - 고온다습 시 급발병!\n🔬 **증상:** 잎/줄기 검은 병반, 물때처럼 보이는 반점, 심하면 쓰러짐\n🔬 **처방:** 살포제 (만병소독제), 환기 개선, 병든 부위 제거. "
+    },
+    {
+      "disease": "Corn Common Rust",
+      "lang": "ko",
+      "score": 0.5,
+      "hits": 1,
+      "total_kw": 2,
+      "pass": false,
+      "elapsed": 20.53625750541687,
+      "response_preview": "**진단:** 벼 녹병 (Common Rust of Rice)\n**원인균:** *Puccinia sativa*\n**증상:** 벼 줄기와 마디에 주황색 또는 갈색 반점, 포자낭군(sporangia), 심하면 고사\n**처방:** 살녹병제 (예: 프로피톤, 호르아)를 예방적으로 사용. 물 빠진 토양 재배.\n**심각도:** 높음 (20~50% 피해 가능)"
+    },
+    {
+      "disease": "Apple Scab",
+      "lang": "ko",
+      "score": 0.5,
+      "hits": 1,
+      "total_kw": 2,
+      "pass": false,
+      "elapsed": 33.683807134628296,
+      "response_preview": "🍎 사과  scab (껍질병) 진단 및 처방\n\n**🔍 진단:** Apple scab (껍질병)\n**🔬 증상:** 신엽(새로 자라는 잎)의 갈색 또는 검은색 병반(반점), 거칠고 병든 껍질처럼 변하는 성숙엽, 수침(水浸)형 병반\n**🔬 원인:** 진균류 fungus cerasus var. scabius\n**🔬 예방/치료:**\n    * **예방:** 봄철 발"
+    },
+    {
+      "disease": "Healthy Tomato",
+      "lang": "ko",
+      "score": 1.0,
+      "hits": 2,
+      "total_kw": 2,
+      "pass": true,
+      "elapsed": 16.201435565948486,
+      "response_preview": "🌱 토마토 건강 진단: 매우 건강함! (Excellent!)\n현재 상태: 활발한 생육, 정상 잎 색상, 열매 정상 발육\n진단: 건강한 토마토 (Healthy Tomato)\n처방: 꾸준한 물주기, 균형 잡힌 비료 공급, 병충해 예찰\n⭐ 중요도: 낮음 (현재 상태로 매우 좋음!)"
+    }
+  ]
+}

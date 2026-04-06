@@ -1,0 +1,250 @@
+{
+  "version": "v2",
+  "adapter": "gemma4_finetuned_v2",
+  "evaluation": "improved_multilingual",
+  "accuracy": 0.7916666666666666,
+  "correct": 19,
+  "total": 24,
+  "results": [
+    {
+      "disease": "Tomato Late Blight",
+      "lang": "en",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "**Diagnosis:** Late blight of tomato (*Solanum lycosanum*)\n**Cause:** Water mold (*Pseudomonas syringae*) that thrives in warm, wet conditions. Spore release during blight causes secondary infections.\n**Symptoms:** Black, water-soaked lesions on leaves turning mushy; blight on stems; black scab on r"
+    },
+    {
+      "disease": "Tomato Early Blight",
+      "lang": "en",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "**Diagnosis:** Early Blight (also known as Rust on Tomato)\n**Causative Agent:** Fungus (e.g., *Fulvia folvia* or *Puccinia species*) depending on host, thrives in wet conditions.\n**Symptoms:** Small, circular brown/orange spots on upper leaves; may coalesce; fuzzy mold on lower leaves if damp.\n**Aff"
+    },
+    {
+      "disease": "Tomato Bacterial Spot",
+      "lang": "en",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "**Diagnosis:** Tomato Bacterial Spot (Bacterial Leaf Spot)\n**Causative Agent:** *Bse* (Tomato Bacterial Spot Epidemic Bumper Strain), *Bse* (Tomato Leaf Spot Bacterium)\n**Symptoms:** Small, circular leaf spots with dark borders and lighter centers; leaf tissue may become leathery or brittle; prematu"
+    },
+    {
+      "disease": "Tomato Leaf Mold",
+      "lang": "en",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "**Diagnosis:** Tomato Leaf Mold (caused by *Sphagmospores* spores)\n**Symptoms:** Fine, web-like mold growth on the upper leaves, especially affected by low soil moisture and high humidity. Can cause leaf distortion or premature death.\n**Cause:** Water mold (*Phacidium* spp.) thrives in cool, moist c"
+    },
+    {
+      "disease": "Tomato Septoria Leaf Spot",
+      "lang": "en",
+      "passed": false,
+      "group_results": [
+        false,
+        true
+      ],
+      "response": "**Diagnosis:** Septoria Leaf Spot (caused by *Septoria capsanthinensis*)\n**Symptoms:** Small, circular brown spots with black borders on leaves; leaf discoloration; premature leaf death.\n**Cause:** Fungus *Septoria capsanthinensis*. Spread by water splashes on foliage.\n**Treatment:** Fungicides like"
+    },
+    {
+      "disease": "Healthy Tomato",
+      "lang": "en",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "**Diagnosis:** Healthy Tomato\n**Description:** Leaves are a vibrant green, no spots or discoloration, stems are strong and upright. Fruit (if present) is firm and correctly colored.\n**Urgency:** Low - continue monitoring.\n**Treatment:** Maintain consistent watering and feeding. Monitor for early sig"
+    },
+    {
+      "disease": "Potato Late Blight",
+      "lang": "en",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "**Diagnosis:** Late blight of potato (*Solanum tuberosum*)\n**Causative Agent:** Water mold (*Pseudomonas syringae*) followed by fungal infection (*Phytophthora infestans*)\n**Symptoms:** Water-soaked lesions on leaves/stems, rapidly turning into greasy patches; white mold on affected foliage; black l"
+    },
+    {
+      "disease": "Potato Early Blight",
+      "lang": "en",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "**Diagnosis:** Early Blight (also known as Potato Rust)\n**Causative Agent:** Fungus (e.g., *Fusarium solanaci*, *Puccinia subspatatii*)\n**Symptoms:** Small, circular brown/purplish spots on upper leaves; fine rust-like lines on lower leaves; premature wilting of affected plants.\n**Causes:** Fungus t"
+    },
+    {
+      "disease": "Healthy Potato",
+      "lang": "en",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "**Diagnosis:** Healthy Potato (Solanum tuberosum)\n**Appearance:** Smooth, oval to slightly irregular periderm (skin), light tan to white color, no bumps or lesions on the skin. Tuber is firm and odoriferous.\n**Cause:** N/A - Plant is thriving.\n**Prevention:** Maintain proper soil pH (4-6), adequate "
+    },
+    {
+      "disease": "Pepper Bacterial Spot",
+      "lang": "en",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "**Diagnosis:** Bacterial Pepper Spot (or Bacterial Leaf Spot)\n**Cause:** Buruli Streptococci bacteria transmitted by aphids\n**Symptoms:** Small, circular leaf spots with dark borders and affected tissue; bacterial ooze on lesions; leaf roll/distortion; secondary infection on stems.\n**Treatment:** Ba"
+    },
+    {
+      "disease": "Healthy Pepper",
+      "lang": "en",
+      "passed": false,
+      "group_results": [
+        false,
+        false
+      ],
+      "response": "**Diagnosis:** Aphid infestation (Primary Pest)\n**Affected Area:** All parts of the plant, especially new growth and tender areas.\n**Symptoms:** Tiny, fuzzy or waxy insects clustered together. Sticky foliage (honeydew). Infected leaves curl, turn yellow, and drop.\n**Management:**\n1. **Physical Remov"
+    },
+    {
+      "disease": "Apple Scab",
+      "lang": "en",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "**Diagnosis:** Apple Scab\n**Cercodes:** Cercodes cylindricus, Cercodes cylindricus var. vulgaris\n**Symptoms:** Cylindrical (matching apple scab) or irregular brown/black scabs on leaves; rough texture matching scab; may coalesce. On trunk/branches, symptoms are more circular and raised.\n**Cause:** F"
+    },
+    {
+      "disease": "Apple Black Rot",
+      "lang": "en",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "**Diagnosis:** Black Rot (also known as Apple Core Rot or Black Heart)\n**Causative Agents:** Fungi - *Botryosphaeria psilimensis* and *Botryosphaeria chrysensis*\n**Affected Parts:** Inside of apple cores, black sunken areas on skin (Black Heart), rotting core\n**Symptoms:** Black/blackish-green sunke"
+    },
+    {
+      "disease": "Apple Cedar Rust",
+      "lang": "en",
+      "passed": false,
+      "group_results": [
+        false,
+        true
+      ],
+      "response": "**Diagnosis:** Cedar Rust (or Juniper Rust)\n**Causative Agent:** *Pseudomonas syringae* pv. *pspores* (a type of bacterial rust)\n**Symptoms on Leaves:** Bright rusty-orange to brown pustules, especially on the upper leaf surface. Can cause distortion or premature leaf drop.\n**Preferred Conditions:**"
+    },
+    {
+      "disease": "Healthy Apple",
+      "lang": "en",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "**Diagnosis:** Healthy Apple\n**Description:** Apples are generally vibrant, with no visible signs of disease (scabs, mold, etc.). Fruits are firm and have no blemishes.\n**Treatment:** Ongoing preventative care including fungicide applications during susceptible periods.\n**Urgency:** Low - maintain v"
+    },
+    {
+      "disease": "Corn Common Rust",
+      "lang": "en",
+      "passed": false,
+      "group_results": [
+        false,
+        true
+      ],
+      "response": "**Diagnosis:** Common Rust (Rust fungus - *Puccinia sorghi*)\n**Affected Area:** Leaves (raised rusty-orange/brown pustules)\n**Cause:** Fungus spread by wind currents; thrives in warm, moist conditions.\n**Symptoms:** Circular rust-colored spots on leaves; reduced photosynthesis; leaf death.\n**Treatme"
+    },
+    {
+      "disease": "Corn Northern Blight",
+      "lang": "en",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "**Diagnosis:** Northern Corn Leaf Blade Rust (Pyracanidia cristata)\n**Affected Areas:** Upper surfaces of corn leaves show rusty-brown, irregular patches. Affected areas may merge into large rusty patches.\n**Cause:** Pyracanidia cristata (Pyracanidia cristata), common in hedgerows/parks. Causes Pyra"
+    },
+    {
+      "disease": "Grape Black Rot",
+      "lang": "en",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "**Diagnosis:** Black Rot of Grapes (Caused by *Botrytis cinerea*)\n**Symptoms:** Black, rotting clusters on vines; \"Buskiness\" (dense foliage); black mold (*Botrytis*) on berries; bitter taste.\n**Cause:** Grey Mold (*Botrytis cinerea*); thrives in wet conditions with poor air circulation.\n**Treatment"
+    },
+    {
+      "disease": "Healthy Grape",
+      "lang": "en",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "**Diagnosis:** Healthy Grapevine (Vitis vinifera)\n**Symptoms:** Deep green color, no signs of distortion or disease, vigorous growth, no associated pests.\n**Cause:** Optimal growing conditions (water, nutrients), absence of pathogens or pests.\n**Treatment:** Maintain cultural practices (training, pr"
+    },
+    {
+      "disease": "Tomato Late Blight",
+      "lang": "ko",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "🍅 토마토 후추잎마름병 (Late Blight) 🚨 **긴급 진단!**\n\n**🔬 원인:** 역병균 (Verticillium dahliae), 고온다습에 급발생\n**🔬 증상:** 아래쪽 줄기가 갈변, 물갈퀴 모양 갈변 반점, 심하면 쓰러짐\n**🔬 치료:** 살균제 (만코배통, 코치브롬), 환기 개선, 감염"
+    },
+    {
+      "disease": "Potato Late Blight",
+      "lang": "ko",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "🥔 감자 후추잎마름병 (Late Blight) 🚨 **긴급 진단!** 잎이 검게 변하고 줄기가 쓰러지는 치명병!\n\n🔬 **원인:** 역병균 (Phytophthora infestans) - 고온다습 시 급발병!\n🔬 **증상:** 잎/줄기 검은 병반, 물때처럼 보이는 반점, 심하면 쓰러짐\n🔬 **처방:**"
+    },
+    {
+      "disease": "Healthy Tomato",
+      "lang": "ko",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "🌱 토마토 건강 진단: 매우 건강함! (Excellent!)\n현재 상태: 활발한 생육, 정상 잎 색상, 열매 정상 발육\n진단: 건강한 토마토 (Healthy Tomato)\n처방: 꾸준한 물주기, 균형 잡힌 비료 공급, 병충해 예찰\n⭐ 중요도: 낮음 (현재 상태로 매우 좋음!)"
+    },
+    {
+      "disease": "Apple Scab",
+      "lang": "ko",
+      "passed": true,
+      "group_results": [
+        true,
+        true
+      ],
+      "response": "🍎 사과  scab (껍질병) 진단 및 처방\n\n**🔍 진단:** Apple scab (껍질병)\n**🔬 증상:** 신엽(새로 자라는 잎)의 갈색 또는 검은색 병반(반점), 거칠고 병든 껍질처럼 변하는 성숙엽, 수침(水浸)형 병반\n**🔬 원인:** 진균류 fungus cerasus var. scabius\n**🔬"
+    },
+    {
+      "disease": "Corn Common Rust",
+      "lang": "ko",
+      "passed": false,
+      "group_results": [
+        false,
+        true
+      ],
+      "response": "**진단:** 벼 녹병 (Common Rust of Rice)\n**원인균:** *Puccinia sativa*\n**증상:** 벼 줄기와 마디에 주황색 또는 갈색 반점, 포자낭군(sporangia), 심하면 고사\n**처방:** 살녹병제 (예: 프로피톤, 호르아)를 예방적으로 사용. 물 빠진 토양 재배.\n**심각도:**"
+    }
+  ]
+}

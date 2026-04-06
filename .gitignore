@@ -1,0 +1,36 @@
+# Model weights
+*.pt
+*.pth
+*.pkl
+*.h5
+*.bin
+*.safetensors
+
+# Data (대용량)
+data/models/
+data/raw/
+data/extended_datasets/
+data/processed/
+data/cache/
+data/alerts/
+data/incidents/
+data/gemma4_finetune*.json
+field_images/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+secrets/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Unsloth cache
+unsloth_compiled_cache/

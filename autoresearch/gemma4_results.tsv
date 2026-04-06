@@ -1,0 +1,2 @@
+-e commit	dataset_size	lora_r	lora_alpha	max_steps	training_loss	elapsed_min	status	description
+v2_baseline	2148	16	32	300	3.7097	23.4	keep	v2 파인튜닝: 79.2% 품질 점수
