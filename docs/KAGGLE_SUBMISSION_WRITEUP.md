@@ -2,7 +2,7 @@
 
 **Team:** noivan  
 **Track:** Global Resilience + Cactus Prize + Special Technology Track  
-**Demo:** https://huggingface.co/spaces/noivan/cropdoc  
+**Demo:** https://noivan0.github.io/cropdoc/  
 **Video:** https://youtu.be/VV3YqZmUkGk  
 **Code:** https://github.com/noivan0/cropdoc  
 **Models:** https://huggingface.co/noivan/cropdoc  
@@ -182,7 +182,7 @@ Beyond the base 38-class PlantVillage dataset, we extended CropDoc to **72 disea
 
 | Channel | URL | Status |
 |---------|-----|--------|
-| **HuggingFace Spaces** | https://huggingface.co/spaces/noivan/cropdoc | ✅ Live |
+| **HuggingFace Spaces** | https://noivan0.github.io/cropdoc/ | ✅ Live |
 | **GitHub (open source)** | https://github.com/noivan0/cropdoc | ✅ Live |
 | **Model weights** | https://huggingface.co/noivan/cropdoc | ✅ Live |
 
