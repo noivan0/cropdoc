@@ -316,5 +316,5 @@ We welcome contributions in:
 
 ---
 
-*Built for the Gemma 4 Good AI Hackathon 2026*
+*Built for the Gemma 4 Good AI Hackathon 2025*
 *"Technology in service of humanity's most essential work — growing food."*
